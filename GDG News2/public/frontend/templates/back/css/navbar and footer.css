@@ -1,0 +1,151 @@
+.navbar,
+.footer {
+    background-color: #000;
+}
+
+.navbar .form a,
+.navbar .mobileMenu li a:hover,
+.navbar .mobileMenu li button:hover {
+    background-color: #ED0606;
+}
+/*  ----   navbar  ----  */
+.navbar {
+    color: #fff;
+    padding-top: 16px;
+    height: 62px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    margin-bottom: 90px;
+    text-transform: capitalize;
+}
+
+.navbar a {    /* any link in navbar */
+    color: #fff;
+    text-decoration: none;
+}
+
+/* logo */
+.navbar .logo { 
+    display: inline-block;
+    width: 15%;
+}
+.navbar .logo a {    font-size: 30px }
+.navbar .logo span {
+    color: #ED0606;
+    font-size: 22px;
+}
+
+/* fields */
+.navbar .fields {  width: 60% }
+.navbar .fields li { 
+    min-width: 5%;
+    margin-right: 2%;
+}
+.navbar .fields li a { 
+    display: inline-block;
+    padding: 0 5px 22px;
+}
+.navbar .fields ul li:hover {
+    border-bottom: 2px solid #ED0606;
+}
+
+/*  form  */
+.navbar .form {
+    width: 22%;
+}
+.navbar .form li:first-of-type {  margin-right: 8% }
+.navbar .form a {
+    border-color: #ED0606;
+    display: inline-block;
+    box-shadow: 1px 1px 2px #ff4f4f;
+}
+
+/*  mobile menu  */
+.navbar .mobileMenuButton {  /*  button  */
+    display: none;
+}
+
+.navbar .mobileMenu {  /*  menu  */
+    display: none;
+}
+.navbar .mobileMenu li a {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.navbar .mobileMenu hr {   border-color: #ED0606 }
+
+.navbar .mobileMenu li button {
+    background: none;
+    border: none;
+    outline: none;
+    color: #fff;
+    text-align: left;
+}
+/*  --------------------------------  */
+
+/*  footer  */
+.footerLinks {
+    background-color: #222;
+    color: #fff;
+    padding: 15px;
+    height: 250px;
+    max-height: 300px;
+}
+.ftLinks {  width: 33.3% }
+.ftLinks h2 {
+    font-size: 18px;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    width: 65px;
+}
+.ftLinks a {
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 5px;
+}
+.ftLinks a:hover {
+    color: #ED0606;
+    text-decoration: underline;
+}
+
+.followUs h2,
+.contact h2 {  width: 105px }
+
+.followUs li,
+.contact li { 
+    padding: 12px 0;
+    position: relative;
+}
+.followUs a,
+.contact span {
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 45px;
+}
+.followUs i,
+.contact i {
+    font-size: 32px;
+    position: absolute;
+}
+.followUs .fcbook {  color: #3434c5 }
+.followUs .twtr {  color: #1fc1ff }
+.followUs .insta {  color: #e64a00 }
+
+
+.footer {
+    color: #fff;
+    padding: 12px;
+    height: 40px;
+}
+.footer p {
+    font-size: 14px;
+    letter-spacing: 3px;
+    width: 27%;
+    margin: 0 auto;
+}

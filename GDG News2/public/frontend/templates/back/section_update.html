@@ -1,0 +1,80 @@
+<!DOCCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <title>Dashboard</title>
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/navbar%20and%20footer.css" />
+        <link rel="stylesheet" href="css/admin.css" />
+        <link rel="stylesheet" href="css/media_quires.css" />
+    </head>
+    <body>
+        
+        <!-- navbar -->
+        <nav class="navbar out-hidden">
+            <div class="container full-width out-hidden">
+                
+                <!-- logo -->
+                <div class="logo fl-left">
+                    <a href="index.html">GDG<span>News</span></a>
+                </div>
+                
+                <!-- fields -->
+                <div class="fields fl-left">
+                    <div class="dashboardTitle">Dashboard</div>
+                </div>
+                
+            </div>
+        </nav>
+        <!-- end navbar  -->
+        
+        
+        <!--  container  -->
+        <div class="container mainContainer"> 
+            <!--  sub navbar  -->        
+            <div class="subNav full-width out-hidden">
+
+                    <ul class="ls-st-none">
+                        <li class="fl-left"><a href="admin.html">home</a></li>
+                        <li class="fl-left"><a href="#">sections</a></li>
+                    </ul>
+
+            </div>
+            <!--  end sub navbar  -->
+            
+            <!--  sections  -->
+            <form name="updateSection" action="" method="">
+                <table class="sections full-width out-hidden">
+                    <caption>
+                       <h2>update sections</h2>
+                    </caption>
+                    <tr>
+                        <td>section name:</td>
+                        <td>
+                            <input type="text" name="sec_name" class="full-width secBox" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" name="update" value="Update" class="btn secBtn" />
+                        </td>
+                    </tr>
+                </table>
+            </form>            
+        </div>
+        <!--  end container  -->
+        
+        <!--  footer  -->
+        <div class="footer full-width out-hidden">
+            <div class="container full-width out-hidden">
+                
+                <p>Copyright &copy; 2018 By GDG</p>
+                
+            </div>
+        </div>
+        <!-- end footer  -->
+        
+        <script src="js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,92 @@
+/* login and signup page  */
+.register {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 40%;
+    padding: 15px 25px;
+}
+
+.register td {
+    padding: 15px 20px;
+}
+.register .label {
+    width: 30%;
+    line-height: 25px;
+}
+.register .txtboxes {
+    width: 70%;
+}
+
+.register img {
+    width: 90px;
+}
+.register h1 {
+    font-size: 24px;
+}
+.register .box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    padding: 5px;
+}
+.register .submitBtn {
+    background-color: #187ab7;
+    border-color:#187ab7;
+    margin: 15px 0;
+    padding: 10px;
+}
+
+/*  login  */
+.loginPage,
+.forgPass {
+    margin: 51px auto;
+}
+
+
+.loginPage a {
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+    margin-top: -30px;
+    text-align: center;
+}
+
+/*  signup  */
+.signupPage {
+    margin: 10px auto;
+}
+
+/*  forget password  */
+.forgPass h1 { text-align: center }
+.forgPass .submitBtn { margin-top: -8px }
+
+/*  -----------------------------  */
+
+/*  ------------------------------------  */
+/*  -------  Edit Profile  -------  */
+/*  ------------------------------------  */
+
+.editProfile {
+    width: 80%;
+    margin: 30px auto;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.editProfile .profile-right {
+    width: 70%;
+}
+
+.editProfile .profile-left {
+    width: 30%;
+    text-align: center;
+    margin-top: 20px;
+}
+.editProfile .profile-left .profile-pic {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}

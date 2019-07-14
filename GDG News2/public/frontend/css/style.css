@@ -1,0 +1,312 @@
+/*  general css code  */
+.newsTitle:hover {
+    color: #468CB0;
+}
+
+.breakingNews{
+    background-color: #ED0606;
+}
+
+.right ul,
+.mostPopular,
+.mostPopular2,
+.otherNews,
+.videos {
+    background-color: #fff;
+}
+
+.right ul,
+.newsSlider,
+.mostPopular,
+.mostPopular2,
+.otherNews,
+.videos { 
+    box-shadow: 1px 1px 4px #888;
+}
+
+.right li .rightNewsImage a,
+.right li .rightNewsContent span,
+.breakingNews,
+.mostPopular .popularNewsContent a,
+.mostPopular2 .popularNewsContent a,
+.otherNews .otherNewsContent a,
+.videos .videosImg a {
+    display: inline-block;
+}
+
+/*  --------------------------------  */
+/*  ---  right side news  ---  */
+
+.right {
+    width: 30%;
+}
+.right a {
+    color: #000;
+    text-decoration: none;
+}
+.right a .newsTitle {  
+    height: 70px; 
+    overflow: hidden;
+}
+
+.right ul {    /*   any ul in right side  */
+    padding: 20px 15px;
+    margin-bottom: 32px;
+    min-width: 100%;
+    position: relative;
+}
+
+.right ul h2 {
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    width: 128px
+}
+
+.right ul li {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    min-width: 100%;
+    height: 102px;
+}
+
+/*  news image  */
+.right li .rightNewsImage {
+    width: 30%;
+    height: 100%;
+    margin-right: 15px;
+}
+.right li .rightNewsImage a {
+    height: 100%;
+    position: relative;
+}
+.right li .rightNewsImage img {
+    height: 100%;
+}
+.right li .rightNewsImage i {    /*  icon  */
+    color: #fff;
+    position: absolute;
+    top: 34%;
+    left: 34%;
+}
+.right li .rightNewsImage i:hover {
+    color: #468CB0;
+}
+
+/*  news title  */
+.right li .rightNewsContent {
+    width: 65%;
+}
+.right li .rightNewsContent span {
+    color: #888;
+    font-size: 14px;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+.right .seemore {  padding-top: 16px; padding-right: 10px }
+.right .seemore a {
+    color: #468CB0;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+/*  ------------------------------------  */
+
+/*  --- main news ---  */
+.mainNews {
+    width: 68%;
+}
+
+/*  news slider  */
+.newsSlider {
+    height: 450px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.breakingNews {
+    color: #fff;
+    padding: 5px 8px;
+    z-index: 999;
+    position: absolute;
+    top: 0;
+}
+
+.newsSlider .slide {
+    height: 100%;
+    position: absolute;
+}
+
+.newsSlider .slide img {
+    height: 100%;
+}
+
+.newsSlider .slide .slideShadow {
+    background-color: #111;
+    opacity: 0.7;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+}
+
+.newsSlider .slideNews {
+    color: #fff;
+    padding: 10px 20px;
+    height: 33%;
+    position: absolute;
+    top: 282px;
+}
+
+.newsSlider .slideNews .newsTitle {
+    color: #ED0606;
+    font-size: 26px;
+    margin-bottom: 10px;
+    max-height: 62px;
+}
+.newsSlider .slideNews .newsTitle:hover {  color: #ED0606 }
+/*  -----------------------------------  */
+
+/*  --- most popular news ---  */
+.mostPopular {
+    height: 480px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.mostPopular .popularNewsImg {   height: 63% }
+
+.mostPopular .popularNewsImg img,
+.mostPopular2 .popularNewsImg img,
+.otherNews .otherNewsImg img,
+.videos .videosImg img {   height: 100% }
+
+.mostPopular .popularNewsContent {
+    padding: 15px;
+    height: 34%;
+}
+.mostPopular .popularNewsContent a,
+.mostPopular2 .popularNewsContent a,
+.otherNews .otherNewsContent a,
+.videos .videosContent a {
+    color: #ED0606;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.mostPopular .popularNewsContent .newsTitle,
+.mostPopular2 .popularNewsContent .newsTitle,
+.otherNews .otherNewsContent .newsTitle,  
+.videos .videosContent .newsTitle {  
+    font-size: 20px;
+    max-height: 52px;
+}
+
+.mostPopular .popularNewsContent p,
+.mostPopular2 .popularNewsContent p,
+.otherNews .otherNewsContent p {
+    height: 100%;
+}
+/*  ------------  */
+
+.mostPopular2 {
+    width: 49%;
+    height: 400px;
+    margin-bottom: 30px;
+}
+.mostPopular2:nth-of-type(2n+1) {  margin-right: 2% }
+
+.mostPopular2 .popularNewsImg {  height: 50% }
+
+.mostPopular2 .popularNewsContent,
+.otherNews .otherNewsContent {  
+    height: 46.5%;
+    padding: 0 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+/*  -------------  */
+
+/*  --- other news  --- */
+.otherNewsContainer{
+    margin-top: 30px;
+}
+
+.otherNews,
+.videos {
+    width: 32%;
+    height: 430px;
+    margin-bottom: 30px;
+    margin-right: 2%;
+    position: relative;
+}
+.otherNews:nth-of-type(3n),
+.videos:nth-of-type(3n) {
+    margin-right: 0;
+}
+
+.otherNews .otherNewsImg { height: 54% }
+.otherNews .otherNewsImg a { 
+    height: 100%;
+    display: inline-block;
+}
+.otherNews .otherNewsContent { height: 42.5% }
+
+.otherNews .otherNewsContent .newsTitle,
+.videos .videosContent .newsTitle {
+    max-height: 69px;
+}
+/*  --------------------  */
+/*  videos  */
+.videos .videosImg {
+    height: 74%;
+}
+
+.videos .videosImg a {
+    height: 100%;
+    position: relative;
+}
+
+.videos .videosImg i {
+    color: #fff;
+    position: absolute;
+    top: 130px;
+    left: 175px;
+}
+
+.videos .videosImg i:hover {
+    color: #468CB0;
+}
+
+.videos .videosContent {
+    height: 24%;
+    padding: 15px;
+}
+
+/*  ---------------------------------  */
+
+
+/*--------------------------------------------*/
+/*  Error Message  */
+/* ------------------------------------------ */
+
+.my-msg {
+    background-color: #f1f1f1;
+    border-radius: 5%;
+    padding: 10px 5px;
+    font-size: 18px;
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+    text-transform: capitalize;
+}
+.my-msg ul {
+    list-style: none;
+}
+
+.error-msg {
+    color: #ff4f4f;
+}
+
+.success-msg {
+    color: #4ccc4c;
+}

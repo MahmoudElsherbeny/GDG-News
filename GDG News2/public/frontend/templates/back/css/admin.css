@@ -1,0 +1,85 @@
+.dashboardTitle {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0.7;
+}
+/*  -------------  */
+
+.subNav {
+    border-bottom: 1px solid #ddd;
+    margin-top: -15px;
+    margin-bottom: 10px;
+    height: 28px;
+}
+.subNav li {
+    margin-right: 25px;
+}
+.subNav a {
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.subNav a:hover {
+    color: #ED0606;
+    border-bottom: 2px solid #ED0606;
+}
+/*  ------------------  */
+
+.sections caption {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: left;
+    text-transform: capitalize;
+}
+.sections h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.sections th,
+.sections td {
+    border-bottom: 1px solid #ddd;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-align: left;
+    text-transform: capitalize;
+    width: 40%;
+}
+.sections tr:last-of-type td {
+    border: none;
+}
+
+.secBtn {
+    background-color: #468CB0;
+    border-color: #468CB0;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.sections .secBox {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+}
+/*  --------------------  */
+
+.deleteMsg {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 25px;
+    max-width: 400px;
+    position: relative;
+    bottom: 140px;
+    left: 400px;
+    box-shadow: 1px 1px 2px #888;
+    display: none;
+}
+.deleteMsg p {
+    margin-bottom: 30px;
+}

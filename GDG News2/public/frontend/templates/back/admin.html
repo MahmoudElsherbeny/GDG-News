@@ -1,0 +1,94 @@
+<!DOCCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <title>Dashboard</title>
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/navbar%20and%20footer.css" />
+        <link rel="stylesheet" href="css/admin.css" />
+        <link rel="stylesheet" href="css/media_quires.css" />
+    </head>
+    <body>
+        
+        <!-- navbar -->
+        <nav class="navbar out-hidden">
+            <div class="container full-width out-hidden">
+                
+                <!-- logo -->
+                <div class="logo fl-left">
+                    <a href="index.html">GDG<span>News</span></a>
+                </div>
+                
+                <!-- fields -->
+                <div class="fields fl-left">
+                    <div class="dashboardTitle">Dashboard</div>
+                </div>
+                
+            </div>
+        </nav>
+        <!-- end navbar  -->
+        
+        
+        <!--  container  -->
+        <div class="container mainContainer"> 
+            <!--  sub navbar  -->        
+            <div class="subNav full-width out-hidden">
+
+                    <ul class="ls-st-none">
+                        <li class="fl-left"><a href="admin.html">home</a></li>
+                        <li class="fl-left"><a href="#">sections</a></li>
+                    </ul>
+
+            </div>
+            <!--  end sub navbar  -->
+            
+            <!--  sections  -->
+            <table class="sections full-width out-hidden">
+                <caption>
+                   <h2>sections data</h2>
+                    <a href="section_add.html" class="btn secBtn">add</a>
+                </caption>
+                <tr>
+                    <th>section id</th>
+                    <th colspan="2">section name</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>politics</td>
+                    <td>
+                        <a href="section_update.html" class="btn secBtn">update</a>
+                        <a href="#" class="btn secBtn deleteBtn">delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>politics</td>
+                    <td>
+                        <a href="#" class="btn secBtn">update</a>
+                        <a href="#" class="btn secBtn deleteBtn">delete</a>
+                    </td>
+                </tr>
+            </table>
+            
+            <div class="deleteMsg" id="deleteMsg" >
+                <p>You are going to delete section</p>
+                <input type="button" name="delete" value="Delete" class="btn secBtn" />
+                <button class="btn secBtn" id="dCancel">Cancel</button>
+            </div>
+        </div>
+        <!--  end container  -->
+        
+        <!--  footer  -->
+        <div class="footer full-width out-hidden">
+            <div class="container full-width out-hidden">
+                
+                <p>Copyright &copy; 2018 By GDG</p>
+                
+            </div>
+        </div>
+        <!-- end footer  -->
+        
+        <script src="js/main.js"></script>
+    </body>
+</html>

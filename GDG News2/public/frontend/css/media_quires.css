@@ -1,0 +1,102 @@
+/*  for mobile and tablets  */
+@media (max-width: 992px) {
+    
+    /*  navbar  */
+    .navbar {
+        overflow: visible;
+    }
+    
+    .container {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    
+    .navbar .fields,
+    .navbar .form,
+    .right,
+    .newsSlider,
+    .mostPopular .breakingNews,
+    .footerLinks,
+    .seeAlso {
+        display: none;
+    }
+    
+    /*  logo  */
+    .navbar .logo {
+        float: none;
+        margin: 0 40%;
+    }
+    
+    /*  mobile menu  */
+    .navbar .mobileMenuButton {
+        display: inline;
+        background: none;
+        border: none;
+        outline: none;
+        color: #fff;
+        cursor: pointer;
+        width: 60px;
+        height: 100%;;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .navbar .mobileMenuButton:hover {
+        background-color: #ED0606;
+    }
+    
+    .navbar .mobileMenu {  /*  menu  */
+        display: none;
+        background-color: #000;
+        width: 45%;
+        position: absolute;
+        top: 62px;
+        right: 0;
+        z-index: 9999;
+    }
+    
+    /* signup & login form  */
+    .register {
+        width: 100%;
+        font-size: 20px;
+    }
+    
+    .mainNews {
+        width: 100%;
+    }
+    
+    /*  news  */
+    .mostPopular,
+    .mostPopular2,
+    .otherNews{
+        height: 600px;
+    }
+    
+    /*  news image container  */
+    .mostPopular .popularNewsImg,
+    .mostPopular2 .popularNewsImg,
+    .otherNews .otherNewsImg {
+        height: 68%;
+    }
+    
+    /*  news title  */
+    .newsTitle {
+        font-size: 24px !important;
+    }
+    
+    .mostPopular .popularNewsContent,
+    .mostPopular2 .popularNewsContent {  height: 30%; }
+    
+    .mostPopular .popularNewsContent p,
+    .mostPopular2 .popularNewsContent p,
+    .otherNews .otherNewsContent p {
+        font-size: 22px;
+    }
+    
+    .mostPopular2,
+    .otherNews {
+        min-width: 100%;
+        margin-right: 0;
+    }
+}
+/*  --------------------------------  */
